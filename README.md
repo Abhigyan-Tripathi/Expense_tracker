@@ -76,14 +76,14 @@ frontend/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/<your-username>/expense-tracker.git
-cd expense-tracker
+git clone https://github.com/<Abhigyan-Tripathi>/Expense_tracker.git
+cd ExpenseTracker
 ```
 
 ### 2. Generate the Gradle wrapper (one-time)
 If `gradlew` isn't already present:
 ```bash
-gradle wrapper --gradle-version 8.10
+gradle wrapper --gradle-version 8.14
 ```
 
 ### 3. Run the backend
@@ -141,7 +141,3 @@ curl "http://localhost:8080/api/expenses/summary?month=9&year=2026"
 - [ ] Database migrations with Flyway
 - [ ] Unit and integration tests
 - [ ] Swap H2 for Postgres
-
-## License
-
-MIT
